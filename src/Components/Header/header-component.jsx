@@ -21,13 +21,14 @@ function Header() {
         <div>
             <ul className='headerSettings'>
                 {MenuHeader.map((i, index) => (
-                    <li className='' key={index}>
+                    <li key={index}>
                         {
-                            <Link to={i.to}>{i.title}</Link>
+                            <Link className='styleList' to={i.to}>{i.title}</Link>
                         }
                     </li>
                 ))}
             </ul>
+            <hr />
         </div>
     )
 }
