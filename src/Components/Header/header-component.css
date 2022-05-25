@@ -10,7 +10,10 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   list-style-type: none;
-  padding: 0 20px 10px auto;
+  padding: 15px 20px 20px 0;
+  font-size: 22px;
+  gap: 1vw;
+  font-family: 'Nunito', sans-serif;
 }
 
 .styleList {
