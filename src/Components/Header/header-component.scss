@@ -3,13 +3,23 @@
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
-    padding: 15px 20px 20px 0;
+    padding: 15px 40px 20px 0;
     font-size: 22px;
-    gap: 1vw;
+    gap: 1.5vw;
+    background-image: linear-gradient(to bottom, #3366cc 80%, #00e6ac);
+    border: none;
     font-family: 'Nunito', sans-serif;
+}
+
+.homeImg{
+    background-color: #3366cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .styleList{
     text-decoration: none;
-    color: #000;
+    background-color: #3366cc;
+    color: #d9d9d9;
 }

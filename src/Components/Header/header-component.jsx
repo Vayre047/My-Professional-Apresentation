@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './header-component.scss'
+import './header-component.scss';
 
 function Header() {
     const MenuHeader = [
@@ -18,8 +18,11 @@ function Header() {
     ];
 
     return (
-        <div>
+        <div className='header'>
             <ul className='headerSettings'>
+                <Link to='/'>
+                    <img className='homeImg' width={40} src="../../images/home-icon.png" alt="Home Icon" />
+                </Link>
                 {MenuHeader.map((i, index) => (
                     <li key={index}>
                         {

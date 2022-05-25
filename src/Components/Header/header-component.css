@@ -10,14 +10,32 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   list-style-type: none;
-  padding: 15px 20px 20px 0;
+  padding: 15px 40px 20px 0;
   font-size: 22px;
-  gap: 1vw;
+  gap: 1.5vw;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #3366cc), to(#00e6ac));
+  background-image: linear-gradient(to bottom, #3366cc 80%, #00e6ac);
+  border: none;
   font-family: 'Nunito', sans-serif;
+}
+
+.homeImg {
+  background-color: #3366cc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .styleList {
   text-decoration: none;
-  color: #000;
+  background-color: #3366cc;
+  color: #d9d9d9;
 }
 /*# sourceMappingURL=header-component.css.map */
