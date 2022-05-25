@@ -28,7 +28,6 @@ function Header() {
                     </li>
                 ))}
             </ul>
-            <hr />
         </div>
     )
 }

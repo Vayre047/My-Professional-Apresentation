@@ -4,3 +4,7 @@
   box-sizing: border-box;
   background-color: #ccf5ff;
 }
+
+header, body, footer{
+  width: 100%;
+}
