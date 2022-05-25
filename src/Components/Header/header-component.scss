@@ -1,9 +1,9 @@
 .headerSettings{
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     list-style-type: none;
-    gap: 0.9vw;
-    font-size: 22px;
-    font-style: italic;
+    padding: 0 20px 10px auto;
 }
 
 .styleList{
