@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=footer-component.css.map */
+.socialPosition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(80%, #262626), to(#333333));
+  background-image: linear-gradient(to top, #262626 80%, #333333);
+}
+
+.socialBackground {
+  width: 30px;
+  height: 30px;
+  gap: 5%;
+}
+
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  padding: 0 3% 1% 0;
+  gap: 2%;
+}
+/*# sourceMappingURL=footer-component.css.map */

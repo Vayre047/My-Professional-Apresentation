@@ -6,20 +6,27 @@
     padding: 15px 40px 20px 0;
     font-size: 22px;
     gap: 1.5vw;
-    background-image: linear-gradient(to bottom, #3366cc 80%, #00e6ac);
+    background-image: linear-gradient(to bottom, #333333 80%, #262626);
+    background-color: #2851a4;
     border: none;
     font-family: 'Nunito', sans-serif;
+    font-weight: 900;
 }
 
 .homeImg{
-    background-color: #3366cc;
+    background-color: #333333;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 0 0 5px 0;
 }
 
 .styleList{
     text-decoration: none;
-    background-color: #3366cc;
+    background-color: #333333;
     color: #d9d9d9;
+}
+
+.list {
+    background-color: #333333;
 }

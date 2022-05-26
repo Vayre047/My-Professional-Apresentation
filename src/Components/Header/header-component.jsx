@@ -21,10 +21,10 @@ function Header() {
         <div className='header'>
             <ul className='headerSettings'>
                 <Link to='/'>
-                    <img className='homeImg' width={40} src="../../images/home-icon.png" alt="Home Icon" />
+                    <img className='homeImg' width={30} src="../../images/home-icon.png" alt="Home Icon" />
                 </Link>
                 {MenuHeader.map((i, index) => (
-                    <li key={index}>
+                    <li className='list' key={index}>
                         {
                             <Link className='styleList' to={i.to}>{i.title}</Link>
                         }
