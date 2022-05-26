@@ -10,22 +10,17 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   list-style-type: none;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(80%, #262626), to(#333333));
-  background-image: linear-gradient(to top, #262626 80%, #333333);
 }
 
-.socialBackground {
+.socialFooter {
   width: 30px;
   height: 30px;
-  gap: 5%;
 }
 
 #footer {
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 60px;
-  padding: 0 3% 1% 0;
-  gap: 2%;
 }
 /*# sourceMappingURL=footer-component.css.map */

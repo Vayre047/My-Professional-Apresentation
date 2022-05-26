@@ -24,7 +24,7 @@ function Footer() {
                     <li key={index}>
                         {
                             <Link className='socialStyle' to={i.to}>
-                                <img className='socialBackground' src={i.image} alt="Social Link Images" />
+                                <img className='socialFooter' src={i.image} alt="Social Link Images" />
                             </Link>
                         }
                     </li>

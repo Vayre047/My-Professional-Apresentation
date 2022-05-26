@@ -15,7 +15,6 @@
   gap: 1.5vw;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #333333), to(#262626));
   background-image: linear-gradient(to bottom, #333333 80%, #262626);
-  background-color: #2851a4;
   border: none;
   font-family: 'Nunito', sans-serif;
   font-weight: 900;

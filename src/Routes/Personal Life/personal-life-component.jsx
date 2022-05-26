@@ -1,7 +1,7 @@
 function PersonalLife() {
     return (
         <div>
-
+         
         </div>
     )
 }

@@ -5,11 +5,11 @@ function Header() {
     const MenuHeader = [
         {
             title: 'Personal Life',
-            to: '/personalLife'
+            to: '/personal-life'
         },
         {
             title: 'Professional Career',
-            to: '/professionalCareer'
+            to: '/professional-career'
         },
         {
             title: 'Contacts',

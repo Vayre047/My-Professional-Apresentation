@@ -1,0 +1,65 @@
+.imageSizing{
+    width: 30vw;
+    height: 60vh;
+}
+
+.grid-homepage-container{
+    display: grid;
+    grid-template-areas: 
+        'Image Name Name'
+        'Image Birthday Birthday'
+        'Information Information Information'
+        'Skills Projects Hobbies';
+}
+
+.gridImage{
+    grid-area: Image;
+}
+
+.gridFullName{
+    grid-area: Name;
+}
+
+.gridBornDate{
+    grid-area: Birthday;
+}
+
+.gridInformation{
+    grid-area: Information;
+}
+
+.gridSkills {
+    grid-area: Skills;
+}
+
+.gridProjects {
+    grid-area: Projects;
+}
+
+.gridHobbies {
+    grid-area: Hobbies;
+}
+
+.informationSettings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    font-size: 3vw;
+    padding: 5vh 0 0 0;
+}
+
+.configurationLinks{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2vw;
+    position: absolute;
+    left: 30vw;
+}
+
+.linkPosition{
+    text-decoration: none;
+    font-size: 2vw;
+}
