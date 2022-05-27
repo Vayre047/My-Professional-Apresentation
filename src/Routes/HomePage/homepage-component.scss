@@ -1,53 +1,56 @@
 .imageSizing{
-    width: 30vw;
-    height: 60vh;
+    width: 25vw;
+    height: auto;
 }
 
 .grid-homepage-container{
     display: grid;
     grid-template-areas: 
-        'Image Name Name'
-        'Image Birthday Birthday'
-        'Information Information Information'
-        'Skills Projects Hobbies';
+        'Image Name Name Name Name'
+        'Image Birthday Birthday Birthday Birthday'
+        'Information Information Information Information Information'
+        'Skills Skills Projects Hobbies Hobbies';
 }
 
 .gridImage{
     grid-area: Image;
+    text-align: center;
 }
 
 .gridFullName{
     grid-area: Name;
+    text-align: left;
+    padding: 8% 0 0 10%;
+    font-size: 32px;  
 }
 
 .gridBornDate{
     grid-area: Birthday;
+    text-align: left;
+    font-size: 46px;
+    padding: 6% 0 10% 28%;
 }
 
 .gridInformation{
     grid-area: Information;
+    text-align: center;
+    font-size: 36px;
+    padding: 0 0 2% 14%;
 }
 
 .gridSkills {
     grid-area: Skills;
+    text-align: right;
 }
 
 .gridProjects {
     grid-area: Projects;
+    text-align: center;
 }
 
 .gridHobbies {
     grid-area: Hobbies;
-}
-
-.informationSettings{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 60vh;
-    font-size: 3vw;
-    padding: 5vh 0 0 0;
+    text-align: left;
 }
 
 .configurationLinks{

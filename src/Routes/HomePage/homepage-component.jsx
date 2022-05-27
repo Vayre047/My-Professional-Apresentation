@@ -16,7 +16,7 @@ function Homepage() {
                     <p>08/04/1994</p>
                 </div>
                 <div className='gridInformation'>
-                    <p>Do you want to know more ?</p>
+                    <p>Do you want to know more about me ? Discover below ...</p>
                 </div>
                 <div className='gridSkills'>
                     <HashLink className='linkPosition' smooth to={'/professional-career#skills'}>Skills</HashLink>
