@@ -1,4 +1,10 @@
-.titlePosition{
-    text-align: center;
-    font-size: 60px;
+.skillsConfiguration{
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.listSkills{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }

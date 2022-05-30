@@ -24,7 +24,6 @@
   grid-area: Name;
   text-align: left;
   padding: 8% 0 0 10%;
-  font-size: 32px;
 }
 
 .gridBornDate {
@@ -32,9 +31,7 @@
   -ms-grid-column: 2;
   -ms-grid-column-span: 4;
   grid-area: Birthday;
-  text-align: left;
-  font-size: 46px;
-  padding: 6% 0 10% 28%;
+  padding: 6% 0 10% 18%;
 }
 
 .gridInformation {
@@ -43,7 +40,6 @@
   -ms-grid-column-span: 5;
   grid-area: Information;
   text-align: center;
-  font-size: 36px;
   padding: 0 0 2% 14%;
 }
 
@@ -53,6 +49,7 @@
   -ms-grid-column-span: 2;
   grid-area: Skills;
   text-align: right;
+  --bs-link-hover-color: #d9d9d9;
 }
 
 .gridProjects {
@@ -60,6 +57,7 @@
   -ms-grid-column: 3;
   grid-area: Projects;
   text-align: center;
+  --bs-link-hover-color: #d9d9d9;
 }
 
 .gridHobbies {
@@ -68,6 +66,7 @@
   -ms-grid-column-span: 2;
   grid-area: Hobbies;
   text-align: left;
+  --bs-link-hover-color: #d9d9d9;
 }
 
 .configurationLinks {
@@ -86,6 +85,11 @@
 
 .linkPosition {
   text-decoration: none;
-  font-size: 2vw;
+  color: #d9d9d9;
+  font-size: 32px;
+}
+
+.linkPosition :hover {
+  color: #d9d9d9;
 }
 /*# sourceMappingURL=homepage-component.css.map */

@@ -6,20 +6,18 @@ function ProfissionalCareer() {
         <div>
             <div>
                 <div id="skills">
-                    <p className='titlePosition'>Skills</p>
+                    <p className='h1 text-center'>Skills</p>
                 </div>
                 <div className='skillsConfiguration'>
-                    <ul>
-                        {Skills.map((skill, index) =>(
-                            <li key={index}>
-                                <img src={skill.Image} alt="Programming Language" />
-                            </li>
-                        ))}
-                    </ul>
+                    {Skills.map((skill, index) =>(
+                        <div className='listSkills' key={index}>
+                            <img src={skill.Image} alt="Programming Language" />
+                        </div>
+                    ))}
                 </div>
             </div>
             <div id="projects">
-                <p className='titlePosition'>Projects</p>
+                <p className='h1 text-center'>Projects</p>
             </div>
         </div>
     )

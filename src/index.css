@@ -10,3 +10,7 @@
 header, body, footer{
   width: 100%;
 }
+
+a{
+  color: inherit;
+}

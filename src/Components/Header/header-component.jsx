@@ -19,12 +19,12 @@ function Header() {
 
     return (
         <div className='header'>
-            <ul className='headerSettings'>
-                <Link to='/'>
+            <ul className='headerSettings d-inline d-flex justify-content-end list-unstyled'>
+                <Link className='linkHome p-3' to='/'>
                     <img className='homeImg' width={30} src="../../images/home-icon.png" alt="Home Icon" />
                 </Link>
                 {MenuHeader.map((i, index) => (
-                    <li className='list' key={index}>
+                    <li className='list p-3' key={index}>
                         {
                             <Link className='styleList' to={i.to}>{i.title}</Link>
                         }

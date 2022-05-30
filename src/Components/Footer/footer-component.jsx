@@ -23,7 +23,7 @@ function Footer() {
                 {SocialLinks.map((i, index) => (
                     <li key={index}>
                         {
-                            <Link className='socialStyle' to={i.to}>
+                            <Link className='socialStyle p-2' to={i.to}>
                                 <img className='socialFooter' src={i.image} alt="Social Link Images" />
                             </Link>
                         }
