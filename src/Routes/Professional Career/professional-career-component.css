@@ -1,18 +1,1 @@
-.skillsConfiguration {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 50%;
-}
-
-.listSkills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  list-style-type: none;
-}
-/*# sourceMappingURL=professional-career-component.css.map */
+/* No CSS *//*# sourceMappingURL=professional-career-component.css.map */

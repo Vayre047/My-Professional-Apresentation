@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EAChB,eAAe,EAAE,MAAM;EACvB,aAAa,EAAE,GAAG;CACrB;;AAED,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,IAAI;CACxB",
+    "mappings": "",
     "sources": [
         "professional-career-component.scss"
     ],

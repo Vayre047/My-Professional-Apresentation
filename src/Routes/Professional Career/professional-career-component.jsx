@@ -8,9 +8,9 @@ function ProfissionalCareer() {
                 <div id="skills">
                     <p className='h1 text-center'>Skills</p>
                 </div>
-                <div className='skillsConfiguration'>
+                <div className='skillsConfiguration row'>
                     {Skills.map((skill, index) =>(
-                        <div className='listSkills' key={index}>
+                        <div className='col-3' key={index}>
                             <img src={skill.Image} alt="Programming Language" />
                         </div>
                     ))}
