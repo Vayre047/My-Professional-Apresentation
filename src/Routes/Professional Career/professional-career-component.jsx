@@ -1,3 +1,4 @@
+import { Skills } from './skills-db.jsx'
 import './professional-career-component.scss';
 
 function ProfissionalCareer() {
@@ -9,36 +10,11 @@ function ProfissionalCareer() {
                 </div>
                 <div className='skillsConfiguration'>
                     <ul>
-                        <li>
-                            <img src="../../../Images/html-icon.png" alt="HTML Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/css-icon.png" alt="CSS Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/bootstrap-icon.png" alt="Bootstrap Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/sass-icon.png" alt="SASS Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/javascript-icon.png" alt="JavaScript Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/angular-icon.png" alt="Agular Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/react-icon.png" alt="React Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/github-icon-1.png" alt="React Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/php-icon.png" alt="React Icon" />
-                        </li>
-                        <li>
-                            <img src="../../../Images/mysql-icon.png" alt="React Icon" />
-                        </li>
+                        {Skills.map((skill, index) =>(
+                            <li key={index}>
+                                <img src={skill.Image} alt="Programming Language" />
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
