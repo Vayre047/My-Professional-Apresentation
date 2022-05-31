@@ -21,37 +21,37 @@
     grid-area: Name;
     text-align: left;
     padding: 8% 0 0 10%;
-    //font-size: 32px;  
 }
 
 .gridBornDate{
     grid-area: Birthday;
-    //font-size: 46px;
     padding: 6% 0 10% 18%;
 }
 
 .gridInformation{
     grid-area: Information;
     text-align: center;
-   // font-size: 36px;
     padding: 0 0 2% 14%;
 }
 
 .gridSkills {
     grid-area: Skills;
     text-align: right;
+    font-family: 'Dancing Script', cursive;
     --bs-link-hover-color: #d9d9d9;
 }
 
 .gridProjects {
     grid-area: Projects;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
     --bs-link-hover-color: #d9d9d9;
 }
 
 .gridHobbies {
     grid-area: Hobbies;
     text-align: left;
+    font-family: 'Dancing Script', cursive;
     --bs-link-hover-color: #d9d9d9;
 }
 
@@ -68,8 +68,4 @@
     text-decoration: none;
     color: #d9d9d9;
     font-size: 32px;
-
-    :hover{
-        color: #d9d9d9;
-    }
 }
