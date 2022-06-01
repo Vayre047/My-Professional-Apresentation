@@ -2,71 +2,56 @@ export const Skills =[
     {
         id: '1',
         title: 'HTML5',
-        Image: '../../../Images/html-icon.png',
-        Top: '10px',
-        Left: '10px'
+        Image: '../../../Images/html-icon.png'
     },
     {
         id: '2',
         title: 'CSS3',
-        Image: '../../../Images/css-icon.png',
-        Top: '20px',
-        Left: '20px'
+        Image: '../../../Images/css-icon.png'
     },
     {
         id: '3',
         title: 'Bootstrap',
-        Image: '../../../Images/bootstrap-icon.png',
-        Top: '30px',
-        Left: '30px'
+        Image: '../../../Images/bootstrap-icon.png'
     },
     {
         id: '4',
         title: 'SASS',
-        Image: '../../../Images/sass-icon.png',
-        Top: '40px',
-        Left: '40px'
+        Image: '../../../Images/sass-icon.png'
     },
     {
         id: '5',
         title: 'JavaScript',
-        Image: '../../../Images/javascript-icon.png',
-        Top: '50px',
-        Left: '50px'
+        Image: '../../../Images/javascript-icon.png'
     },
     {
         id: '6',
         title: 'Angular',
-        Image: '../../../Images/angular-icon.png',
-        Top: '60px',
-        Left: '60px'
+        Image: '../../../Images/angular-icon.png'
     },
     {
         id: '7',
         title: 'React',
-        Image: '../../../Images/react-icon.png',
-        Top: '70px',
-        Left: '70px'
+        Image: '../../../Images/react-icon.png'
     },
     {
         id: '8',
-        title: 'GitHub',
-        Image: '../../../Images/github-icon-1.png',
-        Top: '80px',
-        Left: '80px'
+        title: 'Node.JS',
+        Image: '../../../Images/node-js-icon.png'
     },
     {
         id: '9',
-        title: 'PHP',
-        Image: '../../../Images/php-icon.png',
-        Top: '90px',
-        Left: '90px'
+        title: 'GitHub',
+        Image: '../../../Images/github-icon-1.png'
     },
     {
         id: '10',
+        title: 'PHP',
+        Image: '../../../Images/php-icon.png'
+    },
+    {
+        id: '11',
         title: 'MySQL',
-        Image: '../../../Images/mysql-icon.png',
-        Top: '100px',
-        Left: '100px'
+        Image: '../../../Images/mysql-icon.png'
     }
 ];
