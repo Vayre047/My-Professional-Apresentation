@@ -18,10 +18,10 @@ function Footer() {
     ];
 
     return (
-        <div id='footer'>
+        <div id='footer' className='pe-3'>
             <ul className='socialPosition'>
                 {SocialLinks.map((i, index) => (
-                    <li key={index}>
+                    <li className="" key={index}>
                         {
                             <a className='p-2' href={i.to} target="_blank">
                                 <img className='socialFooter' src={i.image} alt="Social Link Images" />

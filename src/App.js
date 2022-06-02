@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header/header-component';
 import Footer from './Components/Footer/footer-component';
-import Contacts from './Routes/Contacts/contacts-component';
 import PersonalLife from './Routes/Personal Life/personal-life-component';
 import ProfissionalCareer from './Routes/Professional Career/professional-career-component';
 import Homepage from './Routes/HomePage/homepage-component';
@@ -13,7 +12,6 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Homepage />} />
-        <Route path='/contacts' element={<Contacts />} />
         <Route path='/personal-life' element={<PersonalLife />} />
         <Route path='/professional-career' element={<ProfissionalCareer />} />
       </Routes>

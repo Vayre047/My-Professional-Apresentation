@@ -19,7 +19,7 @@ function ProfissionalCareer() {
                             <img src="../../../Images/navy-icon.jpg" class="card-img-top imageConfiguration px-2" alt="Portuguese Navy" />
                             <div class="card-body pt-4">
                                 <h5 class="card-title h2">Portuguese Navy</h5>
-                                <p class="card-text">4-hour navigation in the corvette NRP João Roby on missions to stop the entry of drugs into Portugal.Participation in search and rescue missions within the scope of the Portuguese coast patrol. Navigation on the frigate NRP Álvares Cabral in exercises such as CONTEX-PHIBEX 21 with the aim of detect and identify damaged submarines through naval means with the help of sonar multibeam.</p>
+                                <p class="card-text">24-hour navigation in the corvette NRP João Roby on missions to stop the entry of drugs into Portugal. Participation in search and rescue missions within the scope of the Portuguese coast patrol. Navigation on the frigate NRP Álvares Cabral in exercises such as CONTEX-PHIBEX 21 with the aim of detect and identify damaged submarines through naval means with the help of sonar multibeam.</p>
                             </div>
                         </div>
                         <div class="card text-center border-0">

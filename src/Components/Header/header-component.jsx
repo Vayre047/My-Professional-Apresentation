@@ -10,10 +10,6 @@ function Header() {
         {
             title: 'Professional Career',
             to: '/professional-career'
-        },
-        {
-            title: 'Contacts',
-            to: '/contacts'
         }
     ];
 
