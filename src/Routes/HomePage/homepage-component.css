@@ -1,6 +1,7 @@
 .imageSizing {
   width: 25vw;
   height: auto;
+  border-radius: 900px;
 }
 
 .grid-homepage-container {
