@@ -3,7 +3,7 @@ function PersonalLife() {
         <div>
             <p className="h1 text-center">Personal Life</p>
             <div className="container">
-                <p className="h2 text-center pt-3">Hobbies</p>
+                <p className="h2 text-center pt-3 subtitle">Hobbies</p>
                 <div className="row text-center pt-5">
                     <div className="col-sm">
                         <img src="../../Images/strava-icon.png" alt="Strava Icon" />

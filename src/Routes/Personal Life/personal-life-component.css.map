@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,WAAW,EAAE,yBAAyB;CACzC",
     "sources": [
         "personal-life-component.scss"
     ],
