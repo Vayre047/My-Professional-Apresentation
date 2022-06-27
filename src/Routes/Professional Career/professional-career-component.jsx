@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Skills } from './skills-db.jsx'
 import './professional-career-component.scss';
 
@@ -46,6 +47,16 @@ function ProfissionalCareer() {
                 </div>
                 <div className="row">
                     <p className='h1 text-center'>Projects</p>
+                    <div className='card col-6 text-center pt-3 pb-3 projectDetails'>
+                        <p className='h3'>TBAFlix</p>
+                        <p>TBAFlix is the front-end final project of my course and is where you can watch your favourite series and movies. This project was built with HTML5, CSS3 and JavaScript using React framework. This project helped me to consolidate my logical thinking and my skills in my frot-end skills.</p>
+                        <Link className='linkDetail' to='https://github.com/Vayre047/ProjectoFront-EndReact'>Front-End Project link to GitHub Repository</Link>
+                    </div>
+                    <div className='card col-6 text-center pt-3 pb-3 projectDetails'>
+                        <p className='h3'>Initial Shop</p>
+                        <p></p>
+                        <Link className='linkDetail' to='https://github.com/Vayre047/Initial-Shop'>Initial Shop link to GitHub Repository</Link>
+                    </div>
                 </div>
             </div>
         </div>

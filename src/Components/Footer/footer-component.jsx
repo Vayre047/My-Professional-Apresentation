@@ -18,7 +18,7 @@ function Footer() {
     ];
 
     return (
-        <div id='footer' className='pe-3'>
+        <div id='footer' className='pe-3 fixed-bottom'>
             <ul className='socialPosition'>
                 {SocialLinks.map((i, index) => (
                     <li className="" key={index}>
