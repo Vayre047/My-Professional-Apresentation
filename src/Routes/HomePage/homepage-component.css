@@ -5,82 +5,53 @@
 }
 
 .grid-homepage-container {
-  display: -ms-grid;
   display: grid;
-      grid-template-areas: 'Image Name Name Name Name' 'Image Birthday Birthday Birthday Birthday' 'Information Information Information Information Information' 'Skills Skills Projects Hobbies Hobbies';
+  grid-template-areas: "Image Name Name Name Name" "Image Birthday Birthday Birthday Birthday" "Information Information Information Information Information" "Skills Skills Projects Hobbies Hobbies";
 }
 
 .gridImage {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
   grid-area: Image;
   text-align: center;
 }
 
 .gridFullName {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 4;
   grid-area: Name;
   text-align: left;
   padding: 8% 0 0 10%;
 }
 
 .gridBornDate {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 4;
   grid-area: Birthday;
   padding: 6% 0 10% 18%;
 }
 
 .gridInformation {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
   grid-area: Information;
   text-align: center;
   padding: 0 0 2% 14%;
 }
 
 .gridSkills {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: Skills;
   text-align: right;
-  font-family: 'Dancing Script', cursive;
-  --bs-link-hover-color: #d9d9d9;
+  font-family: "Dancing Script", cursive;
 }
 
 .gridProjects {
-  -ms-grid-row: 4;
-  -ms-grid-column: 3;
   grid-area: Projects;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
-  --bs-link-hover-color: #d9d9d9;
+  font-family: "Dancing Script", cursive;
 }
 
 .gridHobbies {
-  -ms-grid-row: 4;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 2;
   grid-area: Hobbies;
   text-align: left;
-  font-family: 'Dancing Script', cursive;
-  --bs-link-hover-color: #d9d9d9;
+  font-family: "Dancing Script", cursive;
 }
 
 .configurationLinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   list-style-type: none;
   gap: 2vw;
   position: absolute;
@@ -89,7 +60,5 @@
 
 .linkPosition {
   text-decoration: none;
-  color: #d9d9d9;
   font-size: 32px;
-}
-/*# sourceMappingURL=homepage-component.css.map */
+}/*# sourceMappingURL=homepage-component.css.map */

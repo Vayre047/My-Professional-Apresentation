@@ -17,6 +17,17 @@ function PersonalLife() {
                     <div className="col-sm">
                         <img src="../../Images/netflix-icon.png" alt="NetFlix Icon" />
                     </div>
+                 </div>
+                <div className="row text-center pt-5">
+                    <div className="col-sm">
+                        <img src="../../Images/barn-icon.png" alt="Barn Icon" />
+                    </div>
+                    <div className="col-sm">
+                        <img src="../../Images/swimming-icon.png" alt="Swimming Icon" />
+                    </div>
+                    <div className="col-sm">
+                        <img src="../../Images/farmer-icon.png" alt="Farmer Icon" />
+                    </div>
                 </div>
             </div>
         </div>

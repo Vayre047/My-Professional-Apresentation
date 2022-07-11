@@ -26,31 +26,36 @@ export const Skills =[
     },
     {
         id: '6',
+        title: 'TypeScript',
+        Image: '../../../Images/typescript-icon.png'
+    },
+    {
+        id: '7',
         title: 'Angular',
         Image: '../../../Images/angular-icon.png'
     },
     {
-        id: '7',
+        id: '8',
         title: 'React',
         Image: '../../../Images/react-icon.png'
     },
     {
-        id: '8',
+        id: '9',
         title: 'Node.JS',
         Image: '../../../Images/node-js-icon.png'
     },
     {
-        id: '9',
+        id: '10',
         title: 'GitHub',
         Image: '../../../Images/github-icon-1.png'
     },
     {
-        id: '10',
+        id: '11',
         title: 'PHP',
         Image: '../../../Images/php-icon.png'
     },
     {
-        id: '11',
+        id: '12',
         title: 'MySQL',
         Image: '../../../Images/mysql-icon.png'
     }

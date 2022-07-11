@@ -1,41 +1,17 @@
 .headerSettings {
-  font-size: 22px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #333333), to(#262626));
-  background-image: linear-gradient(to bottom, #333333 80%, #262626);
+  font-size: 28px;
   border: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 900;
 }
 
 .homeImg {
-  background-color: #333333;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
   padding: 0 0 5px 0;
-}
-
-.linkHome {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #333333), to(#262626));
-  background-image: linear-gradient(to bottom, #333333 80%, #262626);
 }
 
 .styleList {
   text-decoration: none;
-  background-color: #333333;
-  color: #d9d9d9;
-  --bs-link-hover-color: #d9d9d9;
-}
-
-.list {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #333333), to(#262626));
-  background-image: linear-gradient(to bottom, #333333 80%, #262626);
-}
-/*# sourceMappingURL=header-component.css.map */
+}/*# sourceMappingURL=header-component.css.map */

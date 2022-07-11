@@ -1,30 +1,17 @@
 .headerSettings{
-    font-size: 22px;
-    background-image: linear-gradient(to bottom, #333333 80%, #262626);
+    font-size: 28px;
     border: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-weight: 900;
 }
 
 .homeImg{
-    background-color: #333333;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding: 0 0 5px 0;
 }
 
-.linkHome{
-    background-image: linear-gradient(to bottom, #333333 80%, #262626);
-}
-
 .styleList{
     text-decoration: none;
-    background-color: #333333;
-    color: #d9d9d9;
-    --bs-link-hover-color: #d9d9d9;
-}
-
-.list {
-        background-image: linear-gradient(to bottom, #333333 80%, #262626);
 }
