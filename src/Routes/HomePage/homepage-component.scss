@@ -1,0 +1,73 @@
+.imageSizing{
+    width: 25vw;
+    height: auto;
+    border-radius: 900px;
+}
+
+.grid-homepage-container{
+    display: grid;
+    grid-template-areas: 
+        'Image Name Name Name Name'
+        'Image Birthday Birthday Birthday Birthday'
+        'Information Information Information Information Information'
+        'Skills Skills Projects Hobbies Hobbies';
+}
+
+.gridImage{
+    grid-area: Image;
+    text-align: center;
+}
+
+.gridFullName{
+    grid-area: Name;
+    text-align: left;
+    padding: 8% 0 0 4%;
+    font-size: 60px;
+}
+
+.gridBornDate{
+    grid-area: Birthday;
+    padding: 6% 0 10% 18%;
+    font-family: 'Eczar';
+}
+
+.gridInformation{
+    grid-area: Information;
+    text-align: center;
+    padding: 0 0 2% 14%;
+}
+
+.gridlink {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: #2b22c9;
+    font-size: 60px;
+    text-decoration: none;
+}
+.gridSkills {
+    grid-area: Skills;
+    text-align: right;
+}
+
+.gridProjects {
+    grid-area: Projects;
+    text-align: center;
+}
+
+.gridHobbies {
+    grid-area: Hobbies;
+    text-align: left;
+}
+
+.configurationLinks{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2vw;
+    position: absolute;
+    left: 30vw;
+}
+
+h1{
+    font-size: 60px;
+}

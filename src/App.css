@@ -1,0 +1,11 @@
+.socialFooter {
+    width: 30px;
+    height: 30px;
+    gap: 10%;
+}
+
+.title {
+    font-family: 'Eczar';
+    font-weight: 900;
+    font-size: 40px;
+}

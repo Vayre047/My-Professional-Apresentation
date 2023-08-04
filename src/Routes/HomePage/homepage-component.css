@@ -1,0 +1,64 @@
+.imageSizing {
+  width: 25vw;
+  height: auto;
+  border-radius: 900px;
+}
+
+.grid-homepage-container {
+  display: grid;
+  grid-template-areas: "Image Name Name Name Name" "Image Birthday Birthday Birthday Birthday" "Information Information Information Information Information" "Skills Skills Projects Hobbies Hobbies";
+}
+
+.gridImage {
+  grid-area: Image;
+  text-align: center;
+}
+
+.gridFullName {
+  grid-area: Name;
+  text-align: left;
+  padding: 8% 0 0 10%;
+}
+
+.gridBornDate {
+  grid-area: Birthday;
+  padding: 6% 0 10% 18%;
+}
+
+.gridInformation {
+  grid-area: Information;
+  text-align: center;
+  padding: 0 0 2% 14%;
+}
+
+.gridSkills {
+  grid-area: Skills;
+  text-align: right;
+  font-family: "Dancing Script", cursive;
+}
+
+.gridProjects {
+  grid-area: Projects;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.gridHobbies {
+  grid-area: Hobbies;
+  text-align: left;
+  font-family: "Dancing Script", cursive;
+}
+
+.configurationLinks {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 2vw;
+  position: absolute;
+  left: 30vw;
+}
+
+.linkPosition {
+  text-decoration: none;
+  font-size: 32px;
+}/*# sourceMappingURL=homepage-component.css.map */

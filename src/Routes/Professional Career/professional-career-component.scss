@@ -1,0 +1,25 @@
+.back {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.linkDetail{
+    text-decoration: none;
+    :hover{
+        text-decoration: none;
+        background-color: none;
+        color: none;
+    }
+}
+
+.skillsimg:hover {
+    transition: 7s;
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    gap: 10%;
+}

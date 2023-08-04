@@ -1,0 +1,25 @@
+.imageConfiguration {
+  width: auto;
+  height: 50%;
+}
+
+.projectDetails {
+  background-color: transparent;
+  box-shadow: 1px 2px 20px #80b3ff;
+  border: transparent;
+}
+
+.titleConfiguration {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.linkDetail {
+  text-decoration: none;
+}
+.linkDetail :hover {
+  text-decoration: none;
+  background-color: none;
+  color: none;
+}/*# sourceMappingURL=professional-career-component.css.map */

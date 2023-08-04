@@ -1,0 +1,19 @@
+.socialPosition{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.socialFooter {
+    width: 30px;
+    height: 30px;
+    gap: 10%;
+}
+
+
+#footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
